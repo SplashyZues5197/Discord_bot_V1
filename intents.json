@@ -1,0 +1,38 @@
+{"intents":   [
+  {"tag":  "greetings",
+  "patterns":  ["Hello","Hey","Hi","Good Day","Greetings","What's up?","How is ti going?"],
+  "responses":  ["Hello","Hey!", "What can I do for you?"]
+},
+   {"tag":  "goodbye",
+  "patterns":  ["cya","See you later","Bye","See ya","Goodbye","Have a great day"],
+  "responses":  ["Bye!","Talk to you later", "Goodbye"]
+},
+   {"tag":  "Name",
+  "patterns":  ["What is your name?","Who are you?","What should i call you?"],
+  "responses":  ["You can call me Burnaby","My name is Burnaby", "I prefer being called Burnaby"]
+},
+  {"tag":  "size",
+  "patterns":  ["How big is the Burnaby School District?",
+    "How many schools are in the Burnaby School District?",
+    "What is the number of schools in the Burnaby School District?",
+    "What is the size of the Burnaby School District?",
+    "How large is the Burnaby School District?"],
+  "responses":  ["The District has 41 elementary schools and 8 secondary schools, it has about 24000 students",
+    "The Burnaby School District has 41 elementary schools and 8 secondary schools and it has approximately 24000 students",
+    "This district has 41 elementary schools and 8 secondary schools. It also has 24000 students."]
+},
+  {
+    "tag": "Name",
+    "patterns": [
+      "What is your name?",
+      "Who are you?",
+      "What should i call you?"
+    ],
+    "responses": [
+      "You can call me Burnaby",
+      "My name is Burnaby",
+      "I prefer being called Burnaby"
+    ]
+  }
+
+]}
