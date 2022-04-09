@@ -8,7 +8,7 @@ chatbot.save_model()
 
 
 
-TOKEN = None #discord bot token
+TOKEN = None #Discord bot token
 
 client = discord.Client()
 num1 = int
@@ -40,7 +40,7 @@ async def on_message(message):
             await message.channel.send('Does that help?')
             if user_message.lower() == 'no':
                 await message.channel.send('Contact')
-            eliff user_message.lower() == 'yes':
+            elif user_message.lower() == 'yes':
                 await message.channel.send('I am glad it helps')
             return
         elif user_message.lower() == 'bye':
