@@ -8,7 +8,7 @@ chatbot.save_model()
 
 
 
-TOKEN = "OTA5MTk3MzQ0MzE3MjY4MDI5.YZAyAg.iLlLpJR2_ZgaSxVgcXhDYoUUkAI"
+TOKEN = None #discord bot token
 
 client = discord.Client()
 num1 = int
